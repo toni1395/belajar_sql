@@ -1,0 +1,6 @@
+a. SELECT name, email from users;
+b. - select *  from items where price >="1000000";
+   - select * from items where name RLIKE "uniklo";
+
+c. select * from items
+   inner join categories on items.name = categories.name;

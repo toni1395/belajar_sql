@@ -1,0 +1,11 @@
+INSERT INTO users (name,email,password) 
+VALUES('john doe','john@doe.com','john123'),('jane doe','jane@doe.com','jenita123');
+
+INSERT INTO categories (name) 
+VALUES('gadget'),('cloth'),('men'),('women'),('branded');
+
+
+INSERT INTO items (name,description,price,stock,categories_id) 
+VALUES('sumsang b50','hape keren dari merek sumsang','4000000','100','1'),
+	('uniklooh','baju keren dari brand ternama','500000','50','2'),
+       ('IMHO watch','jam tangan anak yang jujur banget','2000000','10','1');
